@@ -601,8 +601,8 @@ h3.my-profession {
 }
 
 .service .service-item .service-item-inner .icon {
-    height: 60px;
-    width: 60px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
     display: block;
     margin: 0 auto 30px;
@@ -617,14 +617,13 @@ h3.my-profession {
     transition: all 0.3s ease;
 }
 
-.service .service-item .service-item-inner:hover .icon {
-    background: var(--skin-color);
+.service .service-item .service-item-inner .icon img {
+    max-height: 100px;
 }
 
-.service .service-item .service-item-inner:hover .icon .fa {
-    font-size: 25px;
-    color: #ffffff;
-}
+/*.service .service-item .service-item-inner:hover .icon {
+    background: var(--skin-color);
+}*/
 
 .service .service-item .service-item-inner h4 {
     font-size: 18px;
